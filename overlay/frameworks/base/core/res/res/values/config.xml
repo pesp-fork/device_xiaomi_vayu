@@ -652,6 +652,9 @@
          -->
     <string name="config_mainBuiltInDisplayCutout">M 0,0 H -36 V 91 H 36 V 0 H 0 Z</string>
 
+    <!-- Do the battery/notification LEDs support pulsing? Used to decide if we show pulse settings -->
+    <bool name="config_ledCanPulse">true</bool>
+
     <!-- Default value for led color when battery is low on charge --> 
     <integer name="config_notificationsBatteryLowARGB">0xFFFFFFFF</integer> 
     <!-- Default value for led color when battery is medium charged --> 
