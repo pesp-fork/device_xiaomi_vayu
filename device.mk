@@ -406,6 +406,14 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     iorap-app-startup-runner
 
+# IFAA manager
+PRODUCT_PACKAGES += \
+    IFAAService \
+    org.ifaa.android.manager
+
+PRODUCT_BOOT_JARS += \
+    org.ifaa.android.manager
+
 # Sensors
 PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
