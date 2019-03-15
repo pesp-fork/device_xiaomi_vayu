@@ -117,6 +117,9 @@
     <string name="dirac_preset_dance">Танцевальная</string>
     <string name="dirac_preset_metal">Металл</string>
 
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Улучшение звука</string>
+
     <!-- Thermal Profiles -->
     <string name="thermal_title">Настройки производительности</string>
     <string name="thermal_summary">Выберите профиль производительности</string>
