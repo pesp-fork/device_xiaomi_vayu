@@ -68,6 +68,9 @@
     <string name="dirac_preset_dance">Танцевальная</string>
     <string name="dirac_preset_metal">Металл</string>
 
+    <!-- QS tile title -->
+    <string name="dirac_qs_tile_title">Эффекты Dirac</string>
+
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Очистка динамика</string>
     <string name="clear_speaker_summary">Включает 30 секундный звук, чтобы очистить динамик</string>
