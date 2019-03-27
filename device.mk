@@ -14,6 +14,9 @@ PRODUCT_BOARD_PLATFORM := msmnile
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Enable updating of APEXes
