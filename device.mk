@@ -22,6 +22,12 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
+# Enforce native interfaces of product partition as VNDK
+PRODUCT_PRODUCT_VNDK_VERSION := current
+
+# Enforce java interfaces of product partition
+PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
+
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 
