@@ -515,6 +515,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vndservicemanager
 
+# VNDK
+PRODUCT_PACKAGES += \
+    com.android.vndk.current.on_vendor
+
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
