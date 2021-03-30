@@ -23,3 +23,6 @@ persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 # Camera
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
+
+# (b/183612348): Enable skia reduceOpsTaskSplitting
+renderthread.skia.reduceopstasksplitting=true
