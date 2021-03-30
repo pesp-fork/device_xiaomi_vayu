@@ -21,4 +21,9 @@
     <!-- The padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">0dp</dimen>
 
+    <!-- Battery Health -->
+    <bool name="config_supportBatteryHealth">true</bool>
+    <string name="config_batDesCap">/sys/class/power_supply/bms/charge_full</string>
+    <string name="config_batCurCap">/sys/class/power_supply/bms/charge_counter</string>
+    <string name="config_batChargeCycle">/sys/class/power_supply/bms/cycle_count</string>
 </resources>
