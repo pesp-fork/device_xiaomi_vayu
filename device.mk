@@ -188,6 +188,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
+# DeviceSettings
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
