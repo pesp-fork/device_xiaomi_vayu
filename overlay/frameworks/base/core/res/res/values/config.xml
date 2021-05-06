@@ -668,4 +668,7 @@
          screenshot chord -->
    <integer name="config_screenshotChordKeyTimeout">0</integer>
 
+    <!-- Whether device has fingerprint on power button -->
+    <bool name="config_powerButtonFingerprint">true</bool>
+
 </resources>
