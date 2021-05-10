@@ -24,4 +24,7 @@ type ultrasound_device, dev_type;
 
 type vendor_sysfs_iio, fs_type, sysfs_type;
 
-#type vendor_sysfs_battery_supply, sysfs_type, fs_type;
+type proc_last_kmsg, fs_type, proc_type;
+
+# Kcal
+type kcal_dev, sysfs_type, fs_type;
