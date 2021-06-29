@@ -164,6 +164,7 @@ vendor.display.enable_default_color_mode=0
 vendor.display.enable_force_split=1
 vendor.display.enable_null_display=0
 vendor.display.enable_optimize_refresh=1
+vendor.display.skip_refresh_rate_change=1
 
 # DRM
 drm.service.enabled=true
