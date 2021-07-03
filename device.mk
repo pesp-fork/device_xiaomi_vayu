@@ -338,6 +338,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.nfc.rc \
     init.qcom.factory.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
