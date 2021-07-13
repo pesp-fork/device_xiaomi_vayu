@@ -60,3 +60,8 @@ ro.sf.blurs_are_expensive=1
 
 # GMS
 ro.com.google.ime.kb_pad_port_b=1
+
+# ZRAM
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
