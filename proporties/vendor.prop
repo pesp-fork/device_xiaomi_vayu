@@ -252,6 +252,7 @@ ro.surface_flinger.set_idle_timer_ms=500
 ro.surface_flinger.set_touch_timer_ms=750
 vendor.display.idle_time=0
 vendor.display.idle_time_inactive=0
+vendor.display.disable_metadata_dynamic_fps=1
 
 # Sensors
 persist.vendor.sensors.enable.mag_filter=true
