@@ -65,3 +65,6 @@ ro.com.google.ime.kb_pad_port_b=1
 ro.zram.mark_idle_delay_mins=60
 ro.zram.first_wb_delay_mins=1440
 ro.zram.periodic_wb_delay_hours=24
+
+# DeviceParts
+persist.device_parts.lcd.cabc_mode=1
