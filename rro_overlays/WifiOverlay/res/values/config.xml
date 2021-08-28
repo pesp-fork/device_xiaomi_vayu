@@ -78,4 +78,7 @@
     <!-- Integer indicating additional disconnect delay (in ms) after IMS onLost() indication is received -->
     <integer name="config_wifiDelayDisconnectOnImsLostMs">1500</integer>
 
+    <!-- Do not translate. Default access point SSID used for tethering -->
+    <string translatable="false" name="wifi_tether_configure_ssid_default">POCO X3 Pro</string>
+
 </resources>
