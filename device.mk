@@ -445,4 +445,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     libkeymaster_messages.vendor
 
+# Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/vayu/vayu-vendor.mk)
+$(call inherit-product, vendor/xiaomi/sm8150-common/sm8150-common-vendor.mk)
