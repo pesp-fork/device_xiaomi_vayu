@@ -60,6 +60,10 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 TARGET_USES_ION := true
 
+# Init
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_vayu
+TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_vayu
+
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
