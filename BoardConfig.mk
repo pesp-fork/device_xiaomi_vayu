@@ -119,8 +119,9 @@ ADDITIONAL_PARTITIONS := odm product system_ext
 ALL_PARTITIONS := $(CORE_PARTITIONS)
 ALL_PARTITIONS += $(ADDITIONAL_PARTITIONS)
 
-$(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \ $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
-	$(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
+$(foreach p, $(call to-upper, $(ALL_PARTITIONS)), \
+    $(eval BOARD_$(p)IMAGE_FILE_SYSTEM_TYPE := ext4) \
+    $(eval TARGET_COPY_OUT_$(p) := $(call to-lower, $(p))))
 
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
