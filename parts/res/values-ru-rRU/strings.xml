@@ -79,7 +79,7 @@
 
 
      <!-- Haptic Level Settings -->
-     <string name="haptic_title">Сила вибрациия</string>
+     <string name="haptic_title">Сила вибрации</string>
      <string name="haptic_level_title">Уровень силы вибрации</string>
      <string name="haptic_level_summary">Отрегулируйте уровень общей силы вибрации</string>
      <string name="haptic_level_summary_incompatible">Ваше ядро не поддерживает настраиваемый уровень силы вибрации</string>
