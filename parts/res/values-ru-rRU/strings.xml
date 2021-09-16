@@ -69,7 +69,7 @@
     <string name="dirac_preset_metal">Металл</string>
 
     <!-- QS tile title -->
-    <string name="dirac_qs_tile_title">Эффекты Dirac</string>
+    <string name="dirac_qs_tile_title">Улучшение звука Dirac</string>
 
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Очистка динамика</string>
