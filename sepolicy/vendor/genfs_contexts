@@ -46,6 +46,7 @@ genfscon sysfs /devices/platform/soc/1d84000.ufshc/clkgate_enable               
 
 # FPS Info
 genfscon sysfs /sys/devices/platform/soc/ae00000.qcom,mdss_mdp/drm/card0/sde-crtc-0/measured_fps                                  u:object_r:vendor_sysfs_graphics:s0
+genfscon sysfs /class/drm/sde-crtc-0/measured_fps                                                                                 u:object_r:vendor_sysfs_graphics:s0
 
 # Wakeup source stats
 genfscon sysfs /devices/0306_02.01.00/wakeup                                                                                                       u:object_r:sysfs_wakeup:s0
