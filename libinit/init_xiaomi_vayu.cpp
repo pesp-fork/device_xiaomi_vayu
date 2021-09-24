@@ -19,7 +19,7 @@ static const variant_info_t vayu_global_info = {
     .brand = "POCO",
     .device = "vayu",
     .marketname = "POCO X3 Pro",
-    .model = "POCO X3 Pro",
+    .model = "M2102J20SG",
     .build_description = DESCRIPTION,
     .build_fingerprint = FINGERPRINT,
 
@@ -33,7 +33,7 @@ static const variant_info_t vayu_eea_info = {
     .brand = "POCO",
     .device = "vayu",
     .marketname = "POCO X3 Pro",
-    .model = "POCO X3 Pro",
+    .model = "M2102J20SG",
     .build_description = DESCRIPTION,
     .build_fingerprint = FINGERPRINT,
 
@@ -47,7 +47,7 @@ static const variant_info_t bhima_info = {
     .brand = "POCO",
     .device = "bhima",
     .marketname = "POCO X3 Pro",
-    .model = "POCO X3 Pro",
+    .model = "M2102J20SI",
     .build_description = DESCRIPTION,
     .build_fingerprint = FINGERPRINT,
 
