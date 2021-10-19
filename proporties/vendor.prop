@@ -283,3 +283,6 @@ wifi.aware.interface=wifi-aware0
 
 # Hack for priv-apps
 ro.control_privapp_permissions=log
+
+# System
+persist.sys.binary_xml=false
