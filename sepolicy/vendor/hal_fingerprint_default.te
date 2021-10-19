@@ -31,3 +31,9 @@ set_prop(hal_fingerprint_default, vendor_fp_prop)
 allow hal_fingerprint_default vendor_sysfs_spss:dir { search };
 allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 allow hal_fingerprint_default system_data_root_file:dir { read open };
+allow hal_fingerprint_default kcal_dev:dir search;
+allow hal_fingerprint_default kcal_dev:file read;
+allow hal_fingerprint_default vfat:dir search;
+allow hal_fingerprint_default kcal_dev:file open;
+allow hal_fingerprint_default vfat:file read;
+allow hal_fingerprint_default vfat:file r_file_perms;
