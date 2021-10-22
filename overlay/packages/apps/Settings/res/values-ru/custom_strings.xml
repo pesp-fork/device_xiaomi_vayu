@@ -23,4 +23,8 @@
     <string name="battery_saver_refresh_rate_title">Уменьшить частоту обновления экрана</string>
     <string name="battery_saver_refresh_rate_summary">Использовать частоту обновления экрана 60 Гц для экономии энергии, когда включена функция экономии заряда батареи</string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="three_finger_gesture">Снимок экрана свайпом</string>
+    <string name="three_finger_gesture_summary">Проведите тремя пальцами вниз, чтобы сделать снимок экрана</string>
+
 </resources>
