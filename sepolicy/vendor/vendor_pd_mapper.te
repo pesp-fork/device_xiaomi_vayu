@@ -1,0 +1,4 @@
+allow vendor_pd_mapper vfat:dir search;
+allow vendor_pd_mapper vfat:dir read;
+allow vendor_pd_mapper vfat:dir open;
+allow vendor_pd_mapper vfat:file r_file_perms;
