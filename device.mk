@@ -10,6 +10,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
+# RefreshRate Settings
+$(call inherit-product, device/xiaomi/vayu/configs/refreshrate.mk)
+USE_DYNAMIC_REFRESH_RATE := true
+
 # Notch style overlay
 PRODUCT_PACKAGES += \
     NotchNoFillOverlay

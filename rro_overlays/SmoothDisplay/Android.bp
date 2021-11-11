@@ -1,0 +1,5 @@
+runtime_resource_overlay {
+    name: "SmoothDisplay",
+    sdk_version: "current",
+    vendor: true,
+}
